@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="dist\index.html" />
+    <Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\js\Plugins\ExamplePlugin2\BasePlugin.js" />
+    <Content Include="wwwroot\js\Plugins\ExamplePlugin2\BasePlugin.js.map" />
+    <Content Include="wwwroot\ts\BasePlugin.ts" />
+    <Content Include="wwwroot\ts\DashboardPlugin.ts" />
+    <Content Include="wwwroot\ts\Plugins\ExamplePlugin\ExamplePlugin.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>

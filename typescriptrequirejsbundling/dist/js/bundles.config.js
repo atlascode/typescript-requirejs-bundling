@@ -1,0 +1,1 @@
+requirejs.config({    bundles:{"main":["BasePlugin","DashboardPlugin","main"],"ExamplePlugin":["Plugins/ExamplePlugin/ExamplePlugin"],"ExamplePlugin2":["Plugins/ExamplePlugin2/ExamplePlugin2"]}});require(['main'], function () { });
